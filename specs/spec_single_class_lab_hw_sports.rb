@@ -1,6 +1,6 @@
 require('minitest/autorun')
 require('minitest/reporters')
-require_relative('../single_class_lab_hw_2.rb')
+require_relative('../single_class_lab_hw_sports.rb')
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
