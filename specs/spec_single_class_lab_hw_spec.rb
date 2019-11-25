@@ -18,8 +18,8 @@ end
 
 def test_set_update_student_name
   codeclan_member = Student.new("Lauren", "E36")
-  codeclan_member.update_student_name = "Jamie"
-  assert_equal("Jamie", codeclan_member.update_student_name)
+  codeclan_member.student_name = "Jamie"
+  assert_equal("Jamie", codeclan_member.student_name)
 end
 
 def test_set_update_cohort
